@@ -1,3 +1,10 @@
 .runtime-tmp/
 __pycache__/
 *.py[cod]
+
+# 运行时数据与导出产物（可由命令重新生成）
+*.db
+*.db-wal
+*.db-shm
+work/
+artifacts/
